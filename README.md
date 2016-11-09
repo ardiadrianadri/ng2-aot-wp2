@@ -27,7 +27,7 @@ Please notice that this installation is setting an example on Angular 2 good pra
 npm run build
 npm run serve
 ```
-First command builds your application in JIT mode. Typescript Compiler (tsc) generates a Javascript output that includes the Angular Template Compiler. You can find this output in the `./dist` folder.
+First command builds your application in JIT mode. Typescript Compiler (tsc) generates a Javascript output that includes the Angular Template Compiler. You can find JIT output in the `./dist` folder.
 
 Second command serves your application on default port (8080) and opens a tab in your default web browser.
 
@@ -54,6 +54,7 @@ But you can also run all three commands like this:
 ```bash
 npm run start:aot
 ```
+You can find final AOT output in the `./dist-aot` folder.
 ## Related documentation
 [angular.io: Webpack: an introduction](https://angular.io/docs/ts/latest/guide/webpack.html)
 
