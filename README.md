@@ -55,11 +55,11 @@ But you can also run all three commands like this:
 npm run start:aot
 ```
 ## Related documentation
-<a href="https://angular.io/docs/ts/latest/guide/webpack.html" target="_blank">angular.io: Webpack: an introduction</a>
+[angular.io: Webpack: an introduction](https://angular.io/docs/ts/latest/guide/webpack.html)
 
-<a href="https://angular.io/docs/ts/latest/cookbook/aot-compiler.html" target="_blank">angular.io: Ahead-Of-Time Compilation</a>
+[angular.io: Ahead-Of-Time Compilation](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html)
 
-<a href="https://angular.io/docs/ts/latest/guide/server-communication.html#!#cors" target="_blank">angular.io: HTTP client (the Wikipedia example)</a>
+[angular.io: HTTP client (the Wikipedia example)](https://angular.io/docs/ts/latest/guide/server-communication.html#!#cors)
 
 ## License
 Google MIT License
