@@ -4,11 +4,9 @@
 <br>
 
 ## Prerequisites
----
 Have Node JS version >= 5.0 and NPM >= 3 installed. It is recommended to use Node LTS version 6.9.1 though.
 
 ## Up and running
----
 Clone the repo or download the zip and in your project folder run these commands:
 ```bash
 npm install
@@ -25,7 +23,6 @@ Please notice that this installation is setting an example on Angular 2 good pra
 **CAREFUL**: DO NOT update `package.json` versions neither on Angular (including its libraries such as http or forms) nor on its Router (so everything that is included in a `@angular` folder) since our Webpack loader for Angular 2 with Lazy Loading breaks AOT compilation on versions higher than 2.1.0 (Angular) and 3.1.0 (Router).
 
 ## Development environment: JIT compilation
----
 ```bash
 npm run build
 npm run serve
@@ -40,7 +37,6 @@ npm run start:jit
 ```
 
 ## Production environment: AOT compilation
----
 ```bash
 npm run build:aot
 ```
@@ -59,7 +55,6 @@ But you can also run all three commands like this:
 npm run start:aot
 ```
 ## Related documentation
----
 <a href="https://angular.io/docs/ts/latest/guide/webpack.html" target="_blank">angular.io: Webpack: an introduction</a>
 
 <a href="https://angular.io/docs/ts/latest/cookbook/aot-compiler.html" target="_blank">angular.io: Ahead-Of-Time Compilation</a>
@@ -67,6 +62,5 @@ npm run start:aot
 <a href="https://angular.io/docs/ts/latest/guide/server-communication.html#!#cors" target="_blank">angular.io: HTTP client (the Wikipedia example)</a>
 
 ## License
----
 Google MIT License
 
