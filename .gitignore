@@ -2,3 +2,4 @@ node_modules
 aot
 dist
 dist-aot
+.vscode
